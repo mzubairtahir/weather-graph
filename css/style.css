@@ -1,0 +1,62 @@
+body {
+    padding: 5px;
+    width: 600px;
+    height: 550px;
+}
+
+button {
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: purple;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(151, 10, 151);
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.response-container {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    right: 50%;
+    z-index: 2;
+}
+
+.response-container>div {
+    min-width: 400px;
+    font-size: 18px;
+    padding: 8px;
+    height: auto;
+    text-wrap: wrap;
+}
+
+.bg-lite-dark {
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+
+}
+
+.d-hidden{
+    display: none !important;
+}
+
+.d-visible{
+    display: block;
+
+}
